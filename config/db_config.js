@@ -1,24 +1,20 @@
+require('dotenv').config(); // Load environment variables from .env
 
-const pg = require('pg');
+const pg = require('pg'); // pg for PostgreSQL
 const { Sequelize } = require('sequelize');
 
-const db=process.env.DB_NAME_P;
-const user=process.env.USERNAME_P;
-const pass=process.env.PASSWORD_P;
-
-// Initialize Sequelize with connection details
-const sequelize = new Sequelize(db, user, pass, {
-  host: process.env.DB_HOST,
-  port: process.env.DB_PORT,  
+// Initialize Sequelize using the Vercel environment variable names
+const sequelize = new Sequelize(process.env.POSTGRES_DATABASE, process.env.POSTGRES_USER, process.env.POSTGRES_PASSWORD, {
+  host: process.env.POSTGRES_HOST,
+  port: process.env.POSTGRES_PORT, // Vercel defines the port as POSTGRES_PORT
   dialect: 'postgres',
   dialectModule: pg,
   dialectOptions: {
     ssl: {
-      require: true,  
-      rejectUnauthorized: true,  
-      ca: process.env.DB_CERT
-    }
-  }
+      require: true, // Enforce SSL for PostgreSQL
+      rejectUnauthorized: false, // Allow unauthorized SSL certs (necessary for Vercel)
+    },
+  },
 });
 
 // Connection test function
