@@ -1,17 +1,29 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "12345",
-    "database": "nodejs_pract_1",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "avnadmin",
+      "password": "AVNS_J6OozwzDaaRvYTJW7PL",
+      "database": "defaultdb",
+      "host": "todoapp-to-do-application.f.aivencloud.com",
+      "port": 17132,
+      "dialect": "postgres",
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false,
+        "ca": "-----BEGIN CERTIFICATE-----\nMIIEQTCCAqmgAwIBAgIUJdk39AvX7XyhsVYBkzdkmn89X5gwDQYJKoZIhvcNAQEM\nBQAwOjE4MDYGA1UEAwwvNWE1ZmRlZTAtZWY5My00YTUwLWI0OWMtZDg5Y2E2MWQ0\nYmI1IFByb2plY3QgQ0EwHhcNMjQxMDEwMTIzNTM2WhcNMzQxMDA4MTIzNTM2WjA6\nMTgwNgYDVQQDDC81YTVmZGVlMC1lZjkzLTRhNTAtYjQ5Yy1kODljYTYxZDRiYjUg\nUHJvamVjdCBDQTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAK6fqJ6B\ntFfcNGLsQ8Rl0NduKTacCbLO7duq9KFUZuJbuc+iFEYOaU8k1f1yzuxIzSjr/Q+z\nbPkfQw8UIJaG9ErKQL98ZilkUHG9Sauo2vYpbR+NMwgRzG6B544P/NHDL6Bz9fQr\nVQNzcT0NoMhICg25m2tujmhXfJK7KC0NOstPVOvvd28vQK0PSojXorPRCZT16viT\ngY/IheLC7wZBfZcs7fdwhpa4q7srwQH/09nSpFHNecJqLiHtxOW4vn/Abr2GBRAD\nx6GqhURvbBE67cfbG0uds4LG1Ok6xLpFkQ+VMAbW0C5YWgWyVaHHP30fjZ6wAjzn\nK2HN+dSaS/0lbWRqO9S3gKEiaj7y6+n/DurewOFfzG6XQe4dFoEjty4xpkzWT+L3\nBPRA1AD/KuMjFqN8Ze3TrrSBFsy57jjvAgS3OSOCz4bmpCG1KFdt8yaFG/pOYHHS\nicw4fSx8ueTpg5DMA2lpAFXPd+C9tZ1pTyALab3uJfKzLuJFinFmkHQ9UQIDAQAB\noz8wPTAdBgNVHQ4EFgQU4ymK9mw1H9G7939V1Byq1FG731swDwYDVR0TBAgwBgEB\n/wIBADALBgNVHQ8EBAMCAQYwDQYJKoZIhvcNAQEMBQADggGBAAX+zp0GS9mbzS1M\nkEQrEe8c4MGTTpgiRROyAJusYIzcBIAv6LXnAo3LL2EbYS5AuBPjDIX7gixG3V1c\nmhhRZfRzpCNSrdMvNlzzbdEuujcqaF6Bz/WQK+L7Fqe9D1/nK4r20RE01z68ZKew\n7q9ezsUcr1BhvZmAk+OPoG8l2W5aMuqMJMcVno9uBGymoEkvh4f+7oHRiix0GJqw\nAn0NhAVHD6l/u3fvEvJubU62gsiyXiWupEkP+jf0Z5SogbrqZ8rekhZTw/NhGP0d\nmjpBvSJZjQUQsMIdu+1dmyhRw8dG8sA7t+QuUDD0E8tilB/mugNQLcs6PO3txe+G\nhuLutWVyzdUDHHGXDzeoQHReAsqBRRS+TFJ/Fg5NBdpnPSDzrFRWgXPTFUlFMPp+\nydg81hAvxLRLTupKCHgCEyuZLRhyjPISIIWl595XV0RczvSFfJ+BfjvxAz8abYrB\nI9au/wJmL+RGj4yGIlYgJDtFKY6waWpQc25igAVsld5h5QB9eA==\n-----END CERTIFICATE-----"
+      }
   },
   "test": {
-    "username": "postgres",
-    "password": "12345",
-    "database": "nodejs_pract_1",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "avnadmin",
+      "password": "AVNS_J6OozwzDaaRvYTJW7PL",
+      "database": "defaultdb",
+      "host": "todoapp-to-do-application.f.aivencloud.com",
+      "port": 17132,
+      "dialect": "postgres",
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false,
+        "ca": "-----BEGIN CERTIFICATE-----\nMIIEQTCCAqmgAwIBAgIUJdk39AvX7XyhsVYBkzdkmn89X5gwDQYJKoZIhvcNAQEM\nBQAwOjE4MDYGA1UEAwwvNWE1ZmRlZTAtZWY5My00YTUwLWI0OWMtZDg5Y2E2MWQ0\nYmI1IFByb2plY3QgQ0EwHhcNMjQxMDEwMTIzNTM2WhcNMzQxMDA4MTIzNTM2WjA6\nMTgwNgYDVQQDDC81YTVmZGVlMC1lZjkzLTRhNTAtYjQ5Yy1kODljYTYxZDRiYjUg\nUHJvamVjdCBDQTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAK6fqJ6B\ntFfcNGLsQ8Rl0NduKTacCbLO7duq9KFUZuJbuc+iFEYOaU8k1f1yzuxIzSjr/Q+z\nbPkfQw8UIJaG9ErKQL98ZilkUHG9Sauo2vYpbR+NMwgRzG6B544P/NHDL6Bz9fQr\nVQNzcT0NoMhICg25m2tujmhXfJK7KC0NOstPVOvvd28vQK0PSojXorPRCZT16viT\ngY/IheLC7wZBfZcs7fdwhpa4q7srwQH/09nSpFHNecJqLiHtxOW4vn/Abr2GBRAD\nx6GqhURvbBE67cfbG0uds4LG1Ok6xLpFkQ+VMAbW0C5YWgWyVaHHP30fjZ6wAjzn\nK2HN+dSaS/0lbWRqO9S3gKEiaj7y6+n/DurewOFfzG6XQe4dFoEjty4xpkzWT+L3\nBPRA1AD/KuMjFqN8Ze3TrrSBFsy57jjvAgS3OSOCz4bmpCG1KFdt8yaFG/pOYHHS\nicw4fSx8ueTpg5DMA2lpAFXPd+C9tZ1pTyALab3uJfKzLuJFinFmkHQ9UQIDAQAB\noz8wPTAdBgNVHQ4EFgQU4ymK9mw1H9G7939V1Byq1FG731swDwYDVR0TBAgwBgEB\n/wIBADALBgNVHQ8EBAMCAQYwDQYJKoZIhvcNAQEMBQADggGBAAX+zp0GS9mbzS1M\nkEQrEe8c4MGTTpgiRROyAJusYIzcBIAv6LXnAo3LL2EbYS5AuBPjDIX7gixG3V1c\nmhhRZfRzpCNSrdMvNlzzbdEuujcqaF6Bz/WQK+L7Fqe9D1/nK4r20RE01z68ZKew\n7q9ezsUcr1BhvZmAk+OPoG8l2W5aMuqMJMcVno9uBGymoEkvh4f+7oHRiix0GJqw\nAn0NhAVHD6l/u3fvEvJubU62gsiyXiWupEkP+jf0Z5SogbrqZ8rekhZTw/NhGP0d\nmjpBvSJZjQUQsMIdu+1dmyhRw8dG8sA7t+QuUDD0E8tilB/mugNQLcs6PO3txe+G\nhuLutWVyzdUDHHGXDzeoQHReAsqBRRS+TFJ/Fg5NBdpnPSDzrFRWgXPTFUlFMPp+\nydg81hAvxLRLTupKCHgCEyuZLRhyjPISIIWl595XV0RczvSFfJ+BfjvxAz8abYrB\nI9au/wJmL+RGj4yGIlYgJDtFKY6waWpQc25igAVsld5h5QB9eA==\n-----END CERTIFICATE-----"
+      }
   },
   
     "production": {
