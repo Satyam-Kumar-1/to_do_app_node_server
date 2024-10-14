@@ -1,5 +1,5 @@
 
-
+const pg = require('pg');
 const { Sequelize } = require('sequelize');
 
 const db=process.env.DB_NAME_P;
